@@ -2,6 +2,22 @@
 
 win run
 gpedit.msc
+-------------------------------------
+Windows is Taking Your Bandwidth | Let's Fix It!
+https://www.youtube.com/watch?v=7u1miYJmJ_4
+gpedit.msc
+->
+Computer Configuration
+Administrative Templates
+Network
+QoSPacket Scheduler
+Limit reservable badwidth
+  enable
+  change from 80% to ? (0 is ok)
+then gpupdate from cmd or reboot
+-------------------------------------
+gpupdate
+from cmd
 
 
 
